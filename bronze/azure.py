@@ -8,12 +8,12 @@ def list_dynamic_blobs(container_name, prefix=''):
     connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
 
     blob_service_client = BlobServiceClient.from_connection_string(connection_string)
-    container_client = blob_service_client.get_container_client(container_name)
+    source_container_client = blob_service_client.get_container_client(container_name)
 
-    blob_list = container_client.list_blobs(name_starts_with=prefix)
+    blob_list = source_container_client.list_blobs(name_starts_with=prefix)
 
     for blob in blob_list:
-        blob_client = container_client.get_blob_client(blob)
+        blob_client = source_container_client.get_blob_client(blob)
 
         process_blob(blob_client)
 
@@ -27,7 +27,7 @@ def process_blob(blob_client):
 
         raw_json_data = []
         if blob_data.name.endswith('csv'):
-            raw_json_data = csv_to_json_from_string(raw_data)
+            raw_json_data = csv_to_json(raw_data)
         else:
             print('yes')
 
@@ -37,7 +37,7 @@ def process_blob(blob_client):
         print(f"Failed to download blob {blob_client.blob_name}: {str(e)}")
 
 
-def csv_to_json_from_string(csv_content):
+def csv_to_json(csv_content):
     csv_file = io.StringIO(csv_content)
     data = []
 
