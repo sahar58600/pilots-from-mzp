@@ -1,6 +1,7 @@
 import requests
 import os
 
+
 def fetch_exchange_rates():
     bank_israel_url = os.getenv('BANK_ISRAEL_EXCHANGE_URL', 'https://boi.org.il/PublicApi/GetExchangeRates?asXml=false')
 
