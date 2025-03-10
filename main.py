@@ -7,6 +7,6 @@ print('started')
 
 if __name__ == "__main__":
     container_name = "flight"
-    prefix = "flight/2024-03-09_00-00-00/"
+    folder_prefix = "flight/2024-03-09_00-00-00/"
 
-    list_dynamic_blobs(container_name, prefix)
+    list_dynamic_blobs(container_name, folder_prefix)
