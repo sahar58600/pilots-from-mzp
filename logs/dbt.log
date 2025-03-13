@@ -1,0 +1,98 @@
+[0m10:28:40.547961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D0AFD99D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D0AFD8B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D0AFD9510>]}
+
+
+============================== 10:28:40.547961 | dd926fb6-c6b3-4b8c-a0f2-c6dfbc463811 ==============================
+[0m10:28:40.547961 [info ] [MainThread]: Running with dbt=1.9.3
+[0m10:28:40.547961 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\dataengineer11\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:28:40.595971 [info ] [MainThread]: dbt version: 1.9.3
+[0m10:28:40.595971 [info ] [MainThread]: python version: 3.11.7
+[0m10:28:40.595971 [info ] [MainThread]: python path: C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\env\Scripts\python.exe
+[0m10:28:40.605186 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m10:28:40.675778 [info ] [MainThread]: Using profiles dir at C:\Users\dataengineer11\.dbt
+[0m10:28:40.675778 [info ] [MainThread]: Using profiles.yml file at C:\Users\dataengineer11\.dbt\profiles.yml
+[0m10:28:40.675778 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\dbt_project.yml
+[0m10:28:40.675778 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m10:28:40.675778 [debug] [MainThread]: Command `dbt debug` failed at 10:28:40.675778 after 0.21 seconds
+[0m10:28:40.675778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D0B01E290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D049A97D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D0AFDAF90>]}
+[0m10:28:40.675778 [debug] [MainThread]: Flushing usage events
+[0m10:28:41.420751 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:30:30.581534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF4D29DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF4D28B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF4D29A90>]}
+
+
+============================== 10:30:30.597385 | 03fe0d4e-eca7-4ba5-a6f6-1c661a6ba1ce ==============================
+[0m10:30:30.597385 [info ] [MainThread]: Running with dbt=1.9.3
+[0m10:30:30.597385 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dataengineer11\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:30:30.613423 [info ] [MainThread]: dbt version: 1.9.3
+[0m10:30:30.613423 [info ] [MainThread]: python version: 3.11.7
+[0m10:30:30.613423 [info ] [MainThread]: python path: C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\env\Scripts\python.exe
+[0m10:30:30.613423 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m10:30:30.701011 [info ] [MainThread]: Using profiles dir at C:\Users\dataengineer11\.dbt
+[0m10:30:30.701011 [info ] [MainThread]: Using profiles.yml file at C:\Users\dataengineer11\.dbt\profiles.yml
+[0m10:30:30.701011 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\dbt_project.yml
+[0m10:30:30.701011 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m10:30:30.701011 [debug] [MainThread]: Command `dbt debug` failed at 10:30:30.701011 after 0.19 seconds
+[0m10:30:30.701011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF4D6E310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FEE7297D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF4D29050>]}
+[0m10:30:30.701011 [debug] [MainThread]: Flushing usage events
+[0m10:30:31.419627 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:33:07.757077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190CEC648D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190CF7ADF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190CF7ADC10>]}
+
+
+============================== 10:33:07.765393 | 24b725e6-c1ac-41d3-ab18-d06d0a3ec3bf ==============================
+[0m10:33:07.765393 [info ] [MainThread]: Running with dbt=1.9.3
+[0m10:33:07.766483 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dataengineer11\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:33:07.788389 [info ] [MainThread]: dbt version: 1.9.3
+[0m10:33:07.789410 [info ] [MainThread]: python version: 3.11.7
+[0m10:33:07.790416 [info ] [MainThread]: python path: C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\env\Scripts\python.exe
+[0m10:33:07.790416 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m10:33:07.862865 [info ] [MainThread]: Using profiles dir at C:\Users\dataengineer11\.dbt
+[0m10:33:07.863833 [info ] [MainThread]: Using profiles.yml file at C:\Users\dataengineer11\.dbt\profiles.yml
+[0m10:33:07.864834 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\dbt_project.yml
+[0m10:33:07.866525 [info ] [MainThread]: adapter type: postgres
+[0m10:33:07.866525 [info ] [MainThread]: adapter version: 1.9.0
+[0m10:33:07.867554 [info ] [MainThread]: Configuration:
+[0m10:33:07.868536 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:33:07.868536 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:33:07.869555 [info ] [MainThread]: Required dependencies:
+[0m10:33:07.869555 [debug] [MainThread]: Executing "git --help"
+[0m10:33:07.876593 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m10:33:07.877563 [info ] [MainThread]: Connection:
+[0m10:33:07.877563 [info ] [MainThread]:   host: 10.40.0.15
+[0m10:33:07.878561 [info ] [MainThread]:   port: 5432
+[0m10:33:07.878561 [info ] [MainThread]:   user: postgres
+[0m10:33:07.879596 [info ] [MainThread]:   database: pilots_from_mzpn
+[0m10:33:07.879596 [info ] [MainThread]:   schema: gold
+[0m10:33:07.880561 [info ] [MainThread]:   connect_timeout: 10
+[0m10:33:07.882266 [info ] [MainThread]:   role: None
+[0m10:33:07.882266 [info ] [MainThread]:   search_path: None
+[0m10:33:07.883314 [info ] [MainThread]:   keepalives_idle: 0
+[0m10:33:07.884312 [info ] [MainThread]:   sslmode: None
+[0m10:33:07.884312 [info ] [MainThread]:   sslcert: None
+[0m10:33:07.885345 [info ] [MainThread]:   sslkey: None
+[0m10:33:07.885345 [info ] [MainThread]:   sslrootcert: None
+[0m10:33:07.886524 [info ] [MainThread]:   application_name: dbt
+[0m10:33:07.886524 [info ] [MainThread]:   retries: 1
+[0m10:33:07.887554 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m10:33:08.323505 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m10:33:11.121660 [debug] [MainThread]: Using postgres connection "debug"
+[0m10:33:11.122659 [debug] [MainThread]: On debug: select 1 as id
+[0m10:33:11.122659 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:33:11.458315 [debug] [MainThread]: SQL status: SELECT 1 in 0.335 seconds
+[0m10:33:11.459357 [debug] [MainThread]: On debug: Close
+[0m10:33:11.460322 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:33:11.460854 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:33:11.461932 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dataengineer11\Documents\GitHub\pilots-from-mzp\dbt_project.yml> not found
+
+[0m10:33:11.461932 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m10:33:11.463860 [debug] [MainThread]: Command `dbt debug` failed at 10:33:11.462871 after 3.81 seconds
+[0m10:33:11.463860 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:33:11.463860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190C91497D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190CF7AF610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190CF752810>]}
+[0m10:33:11.465131 [debug] [MainThread]: Flushing usage events
+[0m10:33:12.191869 [debug] [MainThread]: An error was encountered while trying to flush usage events

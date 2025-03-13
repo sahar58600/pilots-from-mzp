@@ -1,0 +1,12 @@
+postgres_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: 10.40.0.15
+      port: 5432
+      user: postgres
+      pass: qwe123
+      dbname: pilots_from_mzpn
+      schema: gold
